@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+
+.link{
+    @apply border border-white px-8 py-3 rounded hover:bg-blue-500
+    }
+.span{
+    @apply underline underline-offset-4 decoration-1 underline font-light
+    }
+.heading{
+    @apply text-2xl sm:text-4xl font-bold mb-2
+    }
+.para{
+    @apply text-gray-500 max-w-80 text-center mb-8
+    }
+light.active{
+    color:red
+    }
+
+.wrapper{
+ @apply  flex flex-col items-center justify-center container mx-auto p-14 md:px-20 lg:px-32 w-full overflow-hidden
+    }
+
+.footerBlock{
+    @apply  md:w-1/5 mb-8 md:mb-0 flex items-center flex-col lg:w-full
+    }
+.footerWrapper {
+  @apply grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 mx-auto items-start md:px-20 lg:px-32;
+}
